@@ -1,7 +1,7 @@
 import openai
 import gradio as gr
 
-openai.api_key = "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"
+openai.api_key = "API KEY"
 
 def analyze_sentiment(conversation):
     response = openai.Completion.create(
